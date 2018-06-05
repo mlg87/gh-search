@@ -1,0 +1,20 @@
+.about {
+  width: 50%;
+}
+
+.about__header {
+  color: rgb(194, 194, 194);
+}
+
+.about__link {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.about__link:link {
+  color: #f09a38;
+}
+
+.about__link:visited {
+  color: #d888e2;
+}

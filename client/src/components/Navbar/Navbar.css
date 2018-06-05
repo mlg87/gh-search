@@ -1,0 +1,21 @@
+.nav {
+  height: 80px;
+  background: linear-gradient(to right, #f09a38, #d888e2);
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__link {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.nav__link--selected {
+  border-bottom: 2px solid #fff;
+}

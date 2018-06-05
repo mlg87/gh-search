@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "description": "Github search API",
+  "version": "0.0.1",
+  "main": "src/server.js",
+  "author": "mlg87",
+  "private": true,
+  "engines": {
+    "node": ">=9.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "lodash": "^4.17.10",
+    "memory-cache": "^0.2.0",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4",
+    "prettier": "^1.12.1"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "dev": "PORT=3001 nodemon src/server.js"
+  }
+}
